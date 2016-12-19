@@ -10,9 +10,29 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <table>
+            <tr>
+                <td colspan="2" align="center">
+                    Site de l'ISFCE
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <?php
+                        include "";
+                    ?>
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    ISFCE 2016
+                </td>
+            </tr>
+        </table>
+
         <h1> Projet ISFCE GIT DvpWeb </h1>
         <p>vendredi 19 decembre 2016</p>
     </body>
